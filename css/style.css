@@ -175,16 +175,20 @@
     display: flex;
     background-color: #f6f6f6;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
+    padding-left: 310px;
 }
 
 .post .latest{ 
     position: relative;
-}
+    width: 40%;
+} 
+
 
 .post .latest .list .item{ 
     background-color: white;
     width: 86%;
+    border-radius: 10px;
 }
 
 .post .latest h1{ 
@@ -199,6 +203,8 @@
     padding-bottom: 25px;
     padding-top: 25px;
     line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -209,12 +215,14 @@
 }
 
 .post .latest .list .item .content .img{ 
-    width: 25%;
+    width: 70%;
+
 }
 
 .post .latest .list .item .content .img img{ 
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
+    
 }
 
 .post .latest h1{ 
@@ -263,9 +271,141 @@
     border-radius: 5px;
     position: absolute;
     bottom: -70px;
-    right: 118px;
+    right: 88px;
 }
 
+.post .event{ 
+    width: 50%;
+}
+
+.post .event h1{ 
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002146;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.post .event .list .item{ 
+    margin-bottom: 30px;
+}
+
+.post .event .list .item .content{ 
+    display: flex;
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.post .event .list .item .content .date{ 
+    padding-right: 15px;
+}
+
+.post .event .list .item .content .date h2{ 
+    background-color: #fdc800;
+    color: #002146;
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.post .event .list .item .content .date h3{ 
+    background-color: #002146;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.post .event .list .item .content .info2 h4{ 
+    color: #002146;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    font-weight: bold;
+
+}
+
+.post .event .list .item .content .info2 p{ 
+    color: #454754;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.post .event .list .item .content .info2 .time{ 
+    border-right: 1px solid #454754;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.post .event .list .item .content .info2 a{ 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002146;
+}
+
+.post .event .list .item .content .info2 .locate{ 
+    padding-left: 10px;
+}
+
+.post .event{ 
+    position: relative;
+}
+
+.post .event .viewall{ 
+    padding: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002146;
+    background-color: #fdc800;
+    font-size: 15px;
+    font-weight: bold;
+    border: #fdc800;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+/* --------- CONTACT ---------- */
+
+.contact{ 
+    background-color: #002146;
+    padding-bottom: 40px;
+}
+
+.contact .container .list{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .container .list .item{ 
+    padding-top: 40px;
+}
+
+.contact .container .list .item .content h1{ 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact .container .list .item .content i{ 
+    color: #e1b609;
+    padding-right: 10px;
+
+}
+
+.contact .container .list .item .content a{ 
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 40px;
+}
 
 
 
